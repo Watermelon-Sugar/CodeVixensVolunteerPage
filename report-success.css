@@ -1,0 +1,108 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+.cpa-card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 24px;
+    width: 400px;
+    height: 84px;
+    background: #27AE60;
+    border: 0.5px solid #EBEBF9;
+    box-sizing: border-box;
+    box-shadow: 8px 8px 16px 4px rgba(137, 143, 150, 0.04);
+    border-radius: 20px;
+}
+#cpa {
+    padding-bottom: 50px;
+}
+.cpa {
+    padding: 8px 16px;
+    width: 57px;
+    height: 36px;
+    background: #FFFFFF;
+    border-radius: 24px;
+    margin: 0px 24px;
+}
+.cpa p {
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 20px;    
+    color: #27AE60;
+}
+.cpa-card h5 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;    
+    color: #FFFFFF;
+}
+.card {
+    width: 400px;
+    height: 308px;
+    background: #FFFFFF;    
+    border: 0.5px solid #EBEBF9;
+    box-sizing: border-box;
+    box-shadow: 8px 8px 16px rgba(137, 143, 150, 0.04);
+    border-radius: 20px;
+}
+.profile-card {
+    display: flex;
+    justify-content: center;
+    padding-top: 70px;
+}
+.info {
+    position: relative;
+    left: 5%;
+}
+.info h6 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;    
+    color: #1A1E2C;
+}
+.info i  {
+    font-style: normal;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;    
+    color: #8E94A7;
+}
+.view {
+    position: relative;
+    left: 8%;
+    padding-top: 30px;
+}
+.view .btn {
+    padding: 14px 24px;
+    width: 336px;
+    height: 48px;
+    background: #27AE60;
+    border-radius: 12px;
+}
+.view button {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 20px;
+    color: #FFFFFF;
+    margin: 8px 0px;
+}

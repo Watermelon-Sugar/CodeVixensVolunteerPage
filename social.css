@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    width: 400px;
+    height: 516px;
+}
+#myForm {
+    padding-top: 5%;
+    left: 35%;
+    position: relative;
+}
+.form-group {
+    padding: 32px;
+    background: #FFFFFF;
+    border: 0.5px solid #EBEBF9;
+    box-sizing: border-box;
+    box-shadow: 8px 8px 16px 4px rgba(137, 143, 150, 0.04);
+    border-radius: 20px;
+}
+h1 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;    
+    color: #1A1E2C;
+}
+p {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #8E94A7;
+}
+.border-0 {
+    border: 1px dashed #EBEBF9;
+}
+.options {
+    display: grid;
+    position: relative;
+    left: 2%;
+}
+.close .btn {
+    align-items: center;
+    padding: 14px 24px;
+    width: 336px;
+    height: 48px;    
+    background: #F2F5FE;
+    border-radius: 12px;
+    margin: 8px 0px;
+} 
+.close button {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 20px;    
+    color: #27AE60;
+}
+.submit .btn {
+    align-items: center;
+    padding: 14px 24px;
+    width: 336px;
+    height: 48px;    
+    background: #27AE60;
+    border-radius: 12px;
+    margin: 8px 0px;
+} 
+.submit button {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 20px;    
+    color: #FFFFFF;
+}
+@media (min-width: 481px) and (max-width: 768px) {
+    #myForm {
+        padding-top: 5%;
+        left: 30%;
+        position: relative;
+    }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+    #myForm {
+        padding-top: 5%;
+        left: 3%;
+        position: relative;
+    }
+    h1 {
+        font-family: 'Poppins', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 24px;    
+        color: #1A1E2C;
+    }
+    p {
+        font-family: 'Poppins', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 24px;
+        color: #8E94A7;
+    }
+    
+    .close button {
+        font-family: 'Poppins', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 20px;    
+        color: #27AE60;
+    }
+    .submit button {
+        font-family: 'Poppins', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 20px;    
+        color: #FFFFFF;
+    }
+}

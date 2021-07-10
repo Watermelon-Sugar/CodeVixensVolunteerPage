@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="report.css">
+    <title>Report Missing Persons</title>
+</head>
+<body>
+  <header>
+    <div class="container-fluid">
+      <nav class="navbar navbar-expand-lg">
+        <a class="navbar-brand" href="javascript:void(0);">
+          <img src="img/Group 407.png" width="32" height="32" class="d-inline-block align-top" alt="logo">
+        </a>
+        <small style="padding-right: 15px;">Website<br>Name</small>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon navbar-dark"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="nav mr-auto"> 
+              <img src="img/divider.png" alt="divider" height="32">
+              <li class="nav-item">
+                <a class="nav-link active" href="report.html">Create Missing Persons</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">All Missing Persons</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="search.html">Search</a>
+              </li>
+          </ul>
+          <ul class="nav justify-content-end">
+              <img src="img/divider.png" style=" margin-top:10px"  alt="divider" height="34">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html"><img src="img/profile-img.png" alt="profile-img" width="32" height="32"></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Back Home</a>
+              </li>
+            </ul>
+        </div>
+        </div>
+      </nav> 
+    </div>
+  </header>
+  <main>
+    <div class="row">
+      <div class="col-lg-3 col-sm-9">
+        <div class="card p-3 text-center">
+          <div class="up">
+            <blockquote class="blockquote card-body">
+              <i class="bi-arrow-up-circle" style="font-size: 5rem; color: #8E94A7;"></i>
+              <div class="card-text">
+                <h4>Drop Image Of Person Here</h4>
+                <h6>or upload it manually</h6>
+              </div>
+              <div class="upload">
+                <div class="upload-btn">
+                  <button class="btn" type="submit">Upload manually <i class="bi-plus" style="font-size: 1.2rem; color: #ffffff;"></i></button>
+                </div>
+              </div>
+            </blockquote>
+          </div>
+        </div>
+        <div class="card text-center">
+          <div class="down">
+            <blockquote class="blockquote card-body">
+              <i class="bi-arrow-up-circle" style="font-size: 5rem; color: #8E94A7;"></i>
+              <div class="card-text">
+                <h4>Drop Image Of Person Here</h4>
+                <h6>or upload it manually</h6>
+              </div>
+              <div class="upload">
+                <div class="upload-btn">
+                  <button class="btn" type="submit">Upload manually <i class="bi-plus" style="font-size: 1.2rem; color: #ffffff;"></i></button>
+                </div>
+              </div>
+            </blockquote>
+          </div>
+        </div>
+      </div>
+      <div class="col-9">
+        <p>Contact Person Details</p>
+        <div class="info">
+          <div class="card text-center">
+            <nav class="navbar">
+              <ul class="nav"> 
+                <img src="img/Drag element.png" height="60" style="padding-top: 15px;">
+                <li class="nav-link">
+                  <h5>Relationship to missing person goes here</h5>
+                  <i class="bi-clock" style= "color: #8e94a7;"> 16 December 2020</i>
+                </li>
+                <img src="img/divider.png" alt="divider" height="60" style="padding-right: 15px; padding-top: 15px;">
+                <li class="nav-link">
+                  <img src="img/popup.png" alt="user-icon" height="48" width="48">
+                  <div>
+                    <h6>Full Name</h6>
+                    <i class="bi-geo-alt-fill" style= "color: #8e94a7;"> Phone Number</i>
+                  </div>
+                </li>
+                <img src="img/divider.png" alt="divider" height="60" style="padding-right: 15px; padding-top: 15px;">                   
+                <button><a class="nav-link" href="social.html"><i class="bi-plus-circle-fill" style="font-size: 1.5rem; color: #27AE60; padding-right: 15px;"></i>Social Media</a></button>
+              </ul>
+            </nav>
+          </div>  
+          <p>Missing Person Profile</p>          
+          <div class="details">
+            <div class="card text-left">
+              <form>
+                <div class="container">
+                  <div class="personal-info">
+                      <div class="personal">
+                        <input type="text" class="form-control border-0" name="your-name" id="name" placeholder="Name goes here" required>
+                        <i class="bi-clock" style="color: black;"> 16 December 2020</i>
+                      </div>
+                      <div class="attributes">
+                        <p>6ft Tall</p>
+                        <p>59 years</p>
+                        <h6>Akwa-Ibom State</h6>
+                        <div>
+                          <button class="btn" id="female"><a href="javascript:void(0);"></a>Female</button>
+                          <button class="btn" id="male"><a href="javascript:void(0);"></a>Male</button>
+                        </div>
+                      </div>
+                    </div>  
+                    <div>
+                      <hr><label for="Last Known Location"> Last Known Location</label>
+                      <input class="form-control border-0" type="text" name="location" id="location" placeholder="Last known location goes here" required><hr>
+                    </div>
+                    <div>
+                      <label for="Last Known Location"> Phone Number</label>
+                      <input type="tel" class="form-control border-0" name="phone" id="phone" placeholder="Phone Number Goes Here" required><hr>
+                    </div>
+                  </div>
+                  <div>
+                    <div class="yesorno">
+                      <div>
+                        <p>Reported to the Police?</p>
+                        <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                          <button class="btn" id="yes"><a href="javascript:void:(0);"></a>Yes</button>
+                          <button class="btn" id="no"><a href="javascript:void:(0);"></a>No</button>
+                        </div>
+                      </div>
+                      <div>
+                        <p>Ranson Demanded?</p>
+                        <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                          <button class="btn" id="yes"><a href="javascript:void:(0);"></a>Yes</button>
+                          <button class="btn" id="no"><a href="javascript:void:(0);"></a>No</button>
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <p>Ransom amount</p>
+                        <input type="text" class="form-control border-0" name="ransome" id="ransom" placeholder="Ransom Amount Goes Here" required>
+                        <hr>
+                      </div>
+                    </div>
+                  </div>
+                  <div>
+                    <p>Distinguishing physical features</p>
+                  <div class="textarea">
+                    <textarea type="hidden" class="form-control border-0" name="description"  cols="40" rows="5" id="description" placeholder="Description Goes Here" required></textarea>
+                  </div>
+                  <div class="submit">
+                    <button class="btn" type="submit"><a href="report-success.html">Submit</a></button>
+                  </div>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <section id="footer">
+    <footer>
+      <nav class="navbar">
+        <ul class="nav">    
+          <li class="nav-link">
+            <a class="nav-item" href="javascript:void(0);"><i class="bi-arrow-left-short" style="font-size: 2rem; color:#8E94A7; padding-left: 15px;"></i></a>
+          </li>
+          <li class="nav-link">
+            <a class="nav-item" href="javascript:void(0);" class="btn">Back To Home</a>
+          </li>
+        </ul>
+      </nav>
+    </footer>
+  </section>
+
+  
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+</body>
+</html>
