@@ -370,6 +370,9 @@ body > main > div > div.col-9 > div > div.details > div > form > div:nth-child(3
     font-family: 'Poppins', sans-serif;
     color: #FFFFFF;
 }
+#footer {
+    display: none;
+}
 @media (min-width: 481px) and (max-width: 768px) {
     .navbar {
         width: 115vw;
@@ -407,6 +410,10 @@ body > main > div > div.col-9 > div > div.details > div > form > div:nth-child(3
     }
     .row {
         display: grid;
+    }
+    body > main > div > div.col-lg-3.col-sm-9 > div.card.p-3.text-center {
+        position: relative;
+        left: 10%;
     }
     .col-sm-9 .card {
         float: right;
